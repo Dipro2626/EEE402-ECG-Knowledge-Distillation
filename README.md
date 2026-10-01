@@ -29,7 +29,7 @@ CPSC-2018 95.7, Georgia (USA) 69.6, MIT-BIH (USA) 59.3 — AF recall stays at 82
 
 Deployment (laptop): CPU batch 1 — 3.15 ms (teacher 11.36 ms); GPU batch 1 — 1.96 ms; file 0.23 MB (teacher 7.34 MB).
 
-Result files are not included; `run_all.bat` regenerates them in `results/`. Full analysis: [`report/Final_Project_Report_G2_Group02.pdf`](report/Final_Project_Report_G2_Group02.pdf).
+Result files are not included; `run_all.bat` regenerates them in `results/`. 
 
 ---
 
