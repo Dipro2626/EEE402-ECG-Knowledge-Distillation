@@ -29,7 +29,7 @@ CPSC-2018 95.7, Georgia (USA) 69.6, MIT-BIH (USA) 59.3 — AF recall stays at 82
 
 Deployment (laptop): CPU batch 1 — 3.15 ms (teacher 11.36 ms); GPU batch 1 — 1.96 ms; file 0.23 MB (teacher 7.34 MB).
 
-Result files are not included; `run_all.bat` regenerates them in `results/`. 
+Result files are not included; `run_all.bat` regenerates them in `results/`.
 
 ---
 
@@ -49,13 +49,9 @@ Result files are not included; `run_all.bat` regenerates them in `results/`.
 ├── run_all.bat, run_pooled.bat   one-command reproduction (Windows / Anaconda Prompt)
 ├── scripts/
 │   ├── predict.py                       classify one ECG with a pretrained student
-│   ├── convert_cinc2021_to_parquet.py   build the CPSC/Georgia parquet files from PhysioNet
-│   ├── summarize_results.py             results/*.json -> results/summary/*.json (after run_all.bat)
-│   └── make_figures.py                  results/summary -> figures/results/*.png
+│   └── convert_cinc2021_to_parquet.py   build the CPSC/Georgia parquet files from PhysioNet
 ├── checkpoints/   final pretrained weights: one student + one teacher each for Chapman and Ningbo
 ├── figures/       architecture/ (model diagrams) and results/ (charts)
-├── report/        final report (Word + PDF)
-├── presentation/  final slides + presenter guide
 ├── docs/          per-class tables, literature comparison
 └── data/          put the datasets here (not included — see DATA.md)
 ```

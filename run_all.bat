@@ -66,8 +66,6 @@ python benchmark.py
 
 echo ==================== tables and figures ====================
 python make_all_tables.py
-python scripts\summarize_results.py
-python scripts\make_figures.py
 
 echo Finished: %DATE% %TIME%
 endlocal
